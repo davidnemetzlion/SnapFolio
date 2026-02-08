@@ -13,7 +13,7 @@
    * Header toggle
    */
   const headerToggleBtn = document.querySelector('.header-toggle');
-
+  const linkedInUrl = "https://www.linkedin.com/in/david-nemetz-60a34b3a7/";
   function headerToggle() {
     document.querySelector('#header').classList.toggle('header-show');
     headerToggleBtn.classList.toggle('bi-list');
